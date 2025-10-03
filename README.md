@@ -1,4 +1,4 @@
-# HTML-2
+
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -106,4 +106,3 @@
 
 </body>
 </html>
-
