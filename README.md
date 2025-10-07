@@ -1,108 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <title>Contingut del Llibre</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 70%;
-      margin: 20px auto;
-    }
-    caption {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-    th, td {
-      border: 1px solid #333;
-      padding: 8px;
-      text-align: center;
-    }
-    thead {
-      background-color: #f2f2f2;
-    }
-    tfoot {
-      background-color: #e0e0e0;
-      font-style: italic;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Contingut del Llibre</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: 20px auto;
+            text-align: left;
+        }
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+        }
+        thead {
+            background-color: #e0f2fe;
+        }
+        tfoot {
+            background-color: #f3f4f6;
+            text-align: center;
+            font-style: italic;
+        }
+        colgroup col:first-child {
+            background-color: #fff7ed;
+        }
+        colgroup col:nth-child(2) {
+            background-color: #f0f9ff;
+        }
+        colgroup col:nth-child(3) {
+            background-color: #f0fdf4;
+        }
+    </style>
 </head>
 <body>
 
-  <table>
-    <caption>Taula de Contingut</caption>
+    <table>
+        <caption>Taula de Contingut del Llibre</caption>
 
-    <!-- Definim amplàries de columnes -->
-    <colgroup>
-      <col style="width:15%">
-      <col style="width:55%">
-      <col style="width:30%">
-    </colgroup>
+        <!-- Definició de columnes -->
+        <colgroup>
+            <col span="1">
+            <col span="1">
+            <col span="1">
+        </colgroup>
 
-    <!-- Capçalera de la taula -->
-    <thead>
-      <tr>
-        <th colspan="3">Contingut del Llibre</th>
-      </tr>
-      <tr>
-        <th>Capítol</th>
-        <th>Títol del Capítol</th>
-        <th>Pàgines</th>
-      </tr>
-    </thead>
+        <!-- Encapçalat -->
+        <thead>
+            <tr>
+                <th colspan="3">Contingut del Llibre</th>
+            </tr>
+            <tr>
+                <th>Capítol</th>
+                <th>Títol del Capítol</th>
+                <th>Pàgines</th>
+            </tr>
+        </thead>
 
-    <!-- Cos de la taula -->
-    <tbody>
-      <!-- Capítol 1 amb dues seccions -->
-      <tr>
-        <td rowspan="2">1</td>
-        <td>Introducció a la Història</td>
-        <td>1-10</td>
-      </tr>
-      <tr>
-        <td>Context Històric</td>
-        <td>11-20</td>
-      </tr>
+        <!-- Cos de la taula -->
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Introducció al llibre</td>
+                <td>1–5</td>
+            </tr>
+            <tr>
+                <td>Els objectius de l’autor</td>
+                <td>6–8</td>
+            </tr>
 
-      <!-- Capítol 2 amb una sola secció -->
-      <tr>
-        <td>2</td>
-        <td>Els primers pobladors</td>
-        <td>21-35</td>
-      </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td>Fonaments teòrics</td>
+                <td>9–14</td>
+            </tr>
+            <tr>
+                <td>Aplicacions pràctiques</td>
+                <td>15–20</td>
+            </tr>
+            <tr>
+                <td>Resum i exercicis</td>
+                <td>21–23</td>
+            </tr>
 
-      <!-- Capítol 3 amb tres seccions -->
-      <tr>
-        <td rowspan="3">3</td>
-        <td>El naixement de les ciutats</td>
-        <td>36-45</td>
-      </tr>
-      <tr>
-        <td>L’arquitectura</td>
-        <td>46-55</td>
-      </tr>
-      <tr>
-        <td>La societat urbana</td>
-        <td>56-65</td>
-      </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td>Estudis de cas</td>
+                <td>24–29</td>
+            </tr>
+            <tr>
+                <td>Anàlisi de resultats</td>
+                <td>30–33</td>
+            </tr>
 
-      <!-- Capítol 4 (només una fila) -->
-      <tr>
-        <td>4</td>
-        <td>La cultura clàssica</td>
-        <td>66-80</td>
-      </tr>
-    </tbody>
+            <tr>
+                <td>4</td>
+                <td>Conclusió i recomanacions</td>
+                <td>34–37</td>
+            </tr>
 
-    <!-- Peu de la taula -->
-    <tfoot>
-      <tr>
-        <td colspan="3">Fi de la taula de contingut</td>
-      </tr>
-    </tfoot>
-  </table>
+            <tr>
+                <td>5</td>
+                <td>Annexos i bibliografia</td>
+                <td>38–40</td>
+            </tr>
+        </tbody>
 
-</body>
-</html>
+        <!-- Peu de taula -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Fi de la taula de contingut</td>
+            </tr>
+        <
